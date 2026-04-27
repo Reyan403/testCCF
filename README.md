@@ -1,11 +1,17 @@
 ## Objectif
 L’application a pour objectif de centraliser et faciliter la gestion du planning des interventions pédagogiques d’une promotion de licence. Elle est destinée à l’équipe pédagogique et administrative chargée d’organiser les enseignements, de planifier les cours et de coordonner les intervenants qui interviennent tout au long de l’année scolaire.
 Elle permet notamment de :
+
 ● structurer l’ensemble des enseignements sous forme de blocs, modules et périodes de cours ;
+
 ● gérer les intervenants et leurs disponibilités ;
+
 ● planifier les différentes interventions (cours, ateliers, projets, conférences, évaluations, etc.) sur l’année ;
+
 ● offrir une vision claire, cohérente et mise à jour du planning de la seule promotion concernée ;
+
 ● éviter les conflits d’horaires ou les chevauchements d’interventions ;
+
 ● remplacer ou compléter les outils traditionnels (tableurs, échanges e-mail) par une solution centralisée, fiable et plus efficace.
 L’application devient ainsi un outil de référence unique pour organiser le planning de la promotion, améliorer la coordination entre les intervenants et faciliter le suivi de l’année scolaire pour l’équipe pédagogique.
 
