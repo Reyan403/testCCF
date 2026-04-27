@@ -85,43 +85,43 @@ points réguliers en équipe pour synchroniser les avancées, pour la communucat
 
 1.PHP
 
-- Tout d'abord, télécharger et installer php version 8.4 https://www.php.net/downloads.php?os=windows&osvariant=windows-downloads&version=8.4
+- **Tout d'abord, télécharger et installer php version 8.4 https://www.php.net/downloads.php?os=windows&osvariant=windows-downloads&version=8.4**
 
 2.Symfony
 
-- Télécharger et installer Symfony via le site https://symfony.com/download
+- **Télécharger et installer Symfony via le site https://symfony.com/download**
 
 3.Composer
 
-- Télécharger et installer Composer https://getcomposer.org/download/
+- **Télécharger et installer Composer https://getcomposer.org/download/**
 
 4.Cloner le projet
 
-- git clone https://github.com/marc0prra/GestionLicence.git
-cd GestionLicence
+- **git clone https://github.com/marc0prra/GestionLicence.git
+cd GestionLicence**
 
 5.Installer les dépendances
 
-- composer install
+- **composer install**
 
 6.Configurer l'environnement
 
-- modifier le fichier .env.local avec les variables pour la connexion à la base de données
+- **modifier le fichier .env.local avec les variables pour la connexion à la base de données**
 
 7.Créer la base de données
 
-- Créer la base de données
-php bin/console doctrine:database:create
+- **Créer la base de données
+php bin/console doctrine:database:create**
 
-- Exécuter les migrations
-php bin/console doctrine:migrations:migrate
+- **Exécuter les migrations
+php bin/console doctrine:migrations:migrate**
 
-- Charger les données de test (fixtures)
-php bin/console doctrine:fixtures:load
+- **Charger les données de test (fixtures)
+php bin/console doctrine:fixtures:load**
 
 8.Démarrer le serveur
 
-- symfony serve
+- **symfony serve**
 
 ---
 
