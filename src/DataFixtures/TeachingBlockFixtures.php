@@ -42,7 +42,7 @@ class TeachingBlockFixtures extends Fixture
                 'code' => 'B4',
                 'name' => 'Coordonner',
                 'description' => 'Coordonner le cycle de vide des applications',
-                'hours_count' => 297.5,
+                'hoursCount' => 297.5,
                 'reference' => self::TEACHING_BLOCK_B4,
             ],
         ];
@@ -55,7 +55,7 @@ class TeachingBlockFixtures extends Fixture
             $teachingBlock->setCode(self::data()[$i]['code']);
             $teachingBlock->setName(self::data()[$i]['name']);
             $teachingBlock->setDescription(self::data()[$i]['description']);
-            $teachingBlock->setHoursCount(self::data()[$i]['hours_count']);
+            $teachingBlock->setHoursCount(self::data()[$i]['hoursCount']);
 
             $this->addReference(self::data()[$i]['reference'], $teachingBlock);
 
