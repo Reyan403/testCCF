@@ -19,9 +19,6 @@ class Module
     #[ORM\Column(length: 50)]
     private ?string $code = null;
 
-    #[ORM\Column(nullable: true)]
-    private ?int $parent_id = null;
-
     #[ORM\Column(length: 255)]
     private ?string $name = null;
 

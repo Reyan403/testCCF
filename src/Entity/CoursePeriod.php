@@ -17,7 +17,7 @@ class CoursePeriod
 
     #[ORM\ManyToOne]
     #[ORM\JoinColumn(nullable: false)]
-    private ?SchoolYear $school_year_id = null;
+    private ?SchoolYear SchoolYear = null;
 
     #[ORM\Column(type: Types::DATE_MUTABLE)]
     #[AppAssert\CoursePeriodDateLimit]
@@ -33,12 +33,12 @@ class CoursePeriod
 
     public function getSchoolYearId(): ?SchoolYear
     {
-        return $this->school_year_id;
+        return $this->SchoolYear;
     }
 
-    public function setSchoolYearId(?SchoolYear $school_year_id): static
+    public function setSchoolYearId(?SchoolYear SchoolYear): static
     {
-        $this->school_year_id = $school_year_id;
+        $this->SchoolYear = SchoolYear;
 
         return $this;
     }
