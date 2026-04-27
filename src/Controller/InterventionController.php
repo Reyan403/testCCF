@@ -49,7 +49,7 @@ class InterventionController extends AbstractController
             if (!$period) {
                 $this->addFlash('error', 'Aucune période scolaire correspondante.');
             } else {
-                $course->setCoursePeriodId($period);
+                $course->setCoursePeriod($period);
                 $em->persist($course);
 
                 // Gestion des intervenants (champ non-mappé)

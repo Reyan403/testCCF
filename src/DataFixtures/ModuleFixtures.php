@@ -114,7 +114,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => 'Conception durable',
                 'hoursCount' => 3.5,
                 'capstoneProject' => true,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B1,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B1,
                 'reference' => self::MODULE_ECO,
             ],
 
