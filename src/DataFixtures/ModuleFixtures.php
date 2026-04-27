@@ -61,7 +61,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 63,
                 'capstoneProject' => true,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B1,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B1,
                 'reference' => self::MODULE_AGILE,
             ],
             [
@@ -70,7 +70,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 21,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B1,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B1,
                 'reference' => self::MODULE_LEGAL,
                 'children' => [
                     [
@@ -125,7 +125,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => 'Préparation au TOEIC',
                 'hoursCount' => 17.5,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B2,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B2,
                 'reference' => self::MODULE_ANGLAIS,
             ],
 
@@ -135,7 +135,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => 'Compétences relationnelles',
                 'hoursCount' => 28,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B2,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B2,
                 'reference' => self::MODULE_COMMUNICATION,
             ],
 
@@ -145,7 +145,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 56,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B2,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B2,
                 'reference' => self::MODULE_DEVOPS,
                 'children' => [
                     [
@@ -197,7 +197,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 3.5,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B2,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B2,
                 'reference' => self::MODULE_REX,
                 'children' => [
                     [
@@ -218,7 +218,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 3.5,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B3,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B3,
                 'reference' => self::MODULE_RCRA,
                 'children' => [
                     [
@@ -239,7 +239,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 59,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B4,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B4,
                 'reference' => self::MODULE_ERGO,
                 'children' => [
                     [
@@ -277,7 +277,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 10.5,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B4,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B4,
                 'reference' => self::MODULE_ARCHI_DATA,
                 'children' => [
                     [
@@ -315,7 +315,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 126,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B4,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B4,
                 'reference' => self::MODULE_FRONT,
                 'children' => [
                     [
@@ -359,7 +359,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
                 'description' => '',
                 'hoursCount' => 112,
                 'capstoneProject' => false,
-                'teaching_block' => TeachingBlockFixtures::TEACHING_BLOCK_B4,
+                'teachingBlock' => TeachingBlockFixtures::TEACHING_BLOCK_B4,
                 'reference' => self::MODULE_BACK,
                 'children' => [
                     [
@@ -402,7 +402,7 @@ class ModuleFixtures extends Fixture implements DependentFixtureInterface
             $module->setHoursCount(self::data()[$i]['hoursCount']);
             $module->setCapstoneProject(self::data()[$i]['capstoneProject']);
 
-            $module->setTeachingBlock($this->getReference(self::data()[$i]['teaching_block'], TeachingBlock::class));
+            $module->setTeachingBlock($this->getReference(self::data()[$i]['teachingBlock'], TeachingBlock::class));
 
             $this->addReference(self::data()[$i]['reference'], $module);
 
