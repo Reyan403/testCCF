@@ -15,7 +15,7 @@ Elle permet notamment de :
 ● remplacer ou compléter les outils traditionnels (tableurs, échanges e-mail) par une solution centralisée, fiable et plus efficace.
 L’application devient ainsi un outil de référence unique pour organiser le planning de la promotion, améliorer la coordination entre les intervenants et faciliter le suivi de l’année scolaire pour l’équipe pédagogique.
 
-## Technologies : Tailwind, Symfony, JavaScript, mySQL et GIT.
+Technologies : Tailwind, Symfony, JavaScript, mySQL et GIT.
 
 ---
 
