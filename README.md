@@ -77,7 +77,7 @@ points réguliers en équipe pour synchroniser les avancées, pour la communucat
 
 ---
 
-### Technologies : Tailwind, Symfony, JavaScript, mySQL et GIT.
+### Technologies : Tailwind, PHP, Symfony, JavaScript, mySQL et GIT.
 
 ---
 
