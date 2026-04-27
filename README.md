@@ -128,6 +128,6 @@ php bin/console doctrine:fixtures:load**
 ## MEA de la base de donnée
 <img width="618" height="360" alt="image" src="https://github.com/user-attachments/assets/a1dc614b-79fc-411f-9ceb-feb9044e03e5" />
 
-## Guide d'utilisation : [Guide d'utilisation.pdf](https://github.com/user-attachments/files/25743798/Guide.d.utilisation.pdf)
+### Guide d'utilisation : [Guide d'utilisation.pdf](https://github.com/user-attachments/files/25743798/Guide.d.utilisation.pdf)
 
-## Cahier des charges : [Gestion_licence.pdf](https://github.com/user-attachments/files/25743800/Gestion_licence.pdf)
+### Cahier des charges : [Gestion_licence.pdf](https://github.com/user-attachments/files/25743800/Gestion_licence.pdf)
