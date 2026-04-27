@@ -22,6 +22,8 @@ chaque membre de l'équipe se voyait attribuer **une fonctionnalité distincte**
 garantissant une répartition équitable du travail et une montée en compétences 
 individuelle sur l'ensemble du projet.
 
+---
+
 ### Répartition des tâches
 Les fonctionnalités du projet ont été découpées en tâches indépendantes 
 correspondant aux grandes sections de l'application :
@@ -35,6 +37,8 @@ Chaque développeur était **responsable de bout en bout** de sa fonctionnalité
 conception de la route Symfony, du contrôleur, des entités Doctrine, du template 
 Twig et des validations associées.
 
+---
+
 ### Gestion de projet avec GitHub
 Nous avons utilisé **GitHub** comme outil central de collaboration :
 - **Issues** : chaque fonctionnalité était tracée sous forme de ticket
@@ -42,6 +46,8 @@ Nous avons utilisé **GitHub** comme outil central de collaboration :
 - **Pull Requests** : toute intégration sur `main` passait par une PR relue 
   par au moins un autre membre
 - **Backlog** : découpage des user stories et suivi de l'avancement
+
+---
 
 ### Communication
 Les échanges quotidiens se faisaient en présentiel et à distance, avec des 
