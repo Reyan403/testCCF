@@ -53,6 +53,7 @@ Nous avons utilisé **GitHub** comme outil central de collaboration :
 Les échanges quotidiens se faisaient en présentiel et à distance, avec des 
 points réguliers en équipe pour synchroniser les avancées.
 
+## MEA de la base de donnée
 <img width="618" height="360" alt="image" src="https://github.com/user-attachments/assets/a1dc614b-79fc-411f-9ceb-feb9044e03e5" />
 
 ## Guide d'utilisation : [Guide d'utilisation.pdf](https://github.com/user-attachments/files/25743798/Guide.d.utilisation.pdf)
