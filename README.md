@@ -20,7 +20,8 @@ L’application devient ainsi un outil de référence unique pour organiser le p
 ---
 
 ## Contexte
-Ce projet a été réalisé en groupe de cinq personnes en utilisant les frameworks Symfony et Tailwind CSS, sous la supervision de notre formateur. Ce projet nous a permis de découvrir le travail en équipe sur un projet plus complexe et d’explorer de nouvelles technologies. 
+Ce projet a été réalisé en groupe de cinq personnes dans le cadre de notre formation, avec l'aide de notre formateur. C'était une bonne occasion de travailler en équipe sur un projet plus grand que ce que nous avions l'habitude de faire, en apprenant à nous organiser et à communiquer ensemble.
+Nous avons utilisé Symfony pour la partie back-end et Tailwind CSS pour le design, deux technologies que nous découvrions. Cela nous a permis d'apprendre de nouvelles choses tout en les appliquant directement sur un projet concret.
 
 ---
 
