@@ -15,8 +15,9 @@ Elle permet notamment de :
 ● Remplacer ou compléter les outils traditionnels (tableurs, échanges e-mail) par une solution centralisée, fiable et plus efficace.
 L’application devient ainsi un outil de référence unique pour organiser le planning de la promotion, améliorer la coordination entre les intervenants et faciliter le suivi de l’année scolaire pour l’équipe pédagogique.
 
+---
 
-## Technologies : Tailwind, Symfony, JavaScript, mySQL et GIT.
+### Technologies : Tailwind, Symfony, JavaScript, mySQL et GIT.
 
 ---
 
@@ -76,6 +77,8 @@ Nous avons utilisé **GitHub** comme outil central de collaboration :
 ### Communication
 Les échanges quotidiens se faisaient en présentiel et à distance, avec des 
 points réguliers en équipe pour synchroniser les avancées, pour la communucation a distance elle se faisait a distance.
+
+---
 
 ## MEA de la base de donnée
 <img width="618" height="360" alt="image" src="https://github.com/user-attachments/assets/a1dc614b-79fc-411f-9ceb-feb9044e03e5" />
