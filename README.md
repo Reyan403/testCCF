@@ -1,3 +1,4 @@
+Technologies : Tailwind, Symfony, JavaScript, mySQL et GIT.
 
 Guide d'utilisation : [Guide d'utilisation.pdf](https://github.com/user-attachments/files/25743798/Guide.d.utilisation.pdf)
 
