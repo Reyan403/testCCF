@@ -138,9 +138,9 @@ class CourseFixtures extends Fixture implements DependentFixtureInterface
             $course->setRemotely(self::data()[$i]['remotely']);
             $course->setTitle(self::data()[$i]['title']);
 
-            $course->setInterventionTypeId($this->getReference(self::data()[$i]['interventionType'], InterventionType::class));
-            $course->setModuleId($this->getReference(self::data()[$i]['module'], Module::class));
-            $course->setCoursePeriodId($this->getReference('coursePeriod-'.rand(1, 3), CoursePeriod::class));
+            $course->setInterventionType($this->getReference(self::data()[$i]['interventionType'], InterventionType::class));
+            $course->setModule($this->getReference(self::data()[$i]['module'], Module::class));
+            $course->setCoursePeriod($this->getReference('coursePeriod-'.rand(1, 3), CoursePeriod::class));
 
             $this->addReference(self::data()[$i]['course'], $course);
 
