@@ -29,7 +29,7 @@ Nous avons utilisé Symfony pour la partie back-end et Tailwind CSS pour le desi
 ### Membres
 - Benkherouf Sofiane
 - Kouadria Redwane
-- Godart Valentin
+- Godard Valentin
 - Pereira Marco
 - Ghazzaoui Reyan
 
